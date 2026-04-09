@@ -94,7 +94,7 @@ Fill in:
 - What is working, what is blocked
 - Any known issues
 
-#### `.ai/architecture/ENGINE_DECISIONS.md`
+#### `.ai/architecture/ARCHITECTURE_DECISIONS.md`
 Replace the placeholder with your actual tech stack decisions:
 - Primary languages and frameworks
 - Database choices
@@ -276,7 +276,7 @@ A harness validation task confirms it works before real implementation starts.
 ├── agent/                      Agent operating rules
 │   └── AGENTS.md              Complete protocol (read this first)
 ├── architecture/              Technical decisions
-│   ├── ENGINE_DECISIONS.md    Versioned stack/architecture choices
+│   ├── ARCHITECTURE_DECISIONS.md  Versioned stack/architecture choices
 │   ├── MVP_BOUNDARIES.md      (deprecated → MVP now in epics)
 │   └── RULES_EVOLUTION.md     How to propose rule changes
 ├── brain/                      Current working state

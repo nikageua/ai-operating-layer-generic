@@ -71,9 +71,9 @@ Before approving a rule change, consider:
 
 ---
 
-## ATCHITECTURE_DECISIONS.md Governance
+## ARCHITECTURE_DECISIONS.md Governance
 
-`architecture/ATCHITECTURE_DECISIONS.md` records primary technical decisions (stack, framework, patterns).
+`architecture/ARCHITECTURE_DECISIONS.md` records primary technical decisions (stack, framework, patterns).
 These are not selection rules but they are similarly sensitive.
 
 **When to update:**

@@ -55,7 +55,7 @@ Must read, in order:
 
 1. `.ai/project/PROJECT_CONTEXT.md`
 2. `.ai/project/CURRENT_STATUS.md`
-3. `.ai/architecture/ATCHITECTURE_DECISIONS.md`
+3. `.ai/architecture/ARCHITECTURE_DECISIONS.md`
 4. `.ai/agent/AGENTS.md` (this file)
 5. `.ai/brain/BRAIN_UPDATE_PROTOCOL.md` ← governs how/when to update all brain files
 6. `.ai/brain/SESSION_HANDOFF.md`

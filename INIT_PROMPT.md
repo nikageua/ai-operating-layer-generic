@@ -20,7 +20,7 @@ Read in this order:
    .ai/project/CURRENT_STATUS.md
 
 2. Architecture constraints
-   .ai/architecture/ATCHITECTURE_DECISIONS.md
+   .ai/architecture/ARCHITECTURE_DECISIONS.md
 
 3. Agent rules (this defines the full flow)
    .ai/agent/AGENTS.md

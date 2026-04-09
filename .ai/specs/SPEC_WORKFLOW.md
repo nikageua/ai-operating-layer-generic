@@ -50,7 +50,7 @@ Approve? (Yes / No)
 
 Once the spec is in review, the agent:
 
-1. Reads `.ai/architecture/ATCHITECTURE_DECISIONS.md`
+1. Reads `.ai/architecture/ARCHITECTURE_DECISIONS.md`
 2. Identifies if any open architectural questions exist
 3. If yes → proposes spike tasks in `.ai/tasks/backlog/` tagged `[spike]`
 4. If no → proposes moving spec to `approved` and spawning epics
