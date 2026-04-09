@@ -1,28 +1,26 @@
 # MVP Boundaries
 
-Purpose:
-Define what the current smallest playable / testable slice IS and what it is NOT.
+> **Deprecated.** MVP scope is now declared inside each epic.
+>
+> See `.ai/epics/` — each epic has a `## MVP Scope` field that declares
+> whether it is `MVP`, `Post-MVP`, or `Nice-to-have`, along with the minimum
+> delivery bar for that slice.
+>
+> This file is retained for reference only. Do not add new content here.
 
-## Current MVP Goal
-[Describe the exact goal here]
+## Why This Changed
 
-## In Scope
-- [item]
-- [item]
-- [item]
+Previously, MVP scope was defined once globally here.
+This did not scale across multiple features, specs, and repositories.
 
-## Explicitly Out of Scope
-- [item]
-- [item]
-- [item]
+MVP is now a property of each epic, defined when the epic is created from an
+approved spec. This lets different features have different MVP bars, and lets
+the orchestrator agent reason about which epics to prioritize.
 
-## Architectural Rule
-Even though out-of-scope systems are not being implemented now, avoid decisions that make later expansion unnecessarily difficult.
+## Anti-Scope-Creep Rule (still applies)
 
-## Anti-Scope-Creep Rule
-If a feature does not directly improve the current slice, it should not be included.
+Even with per-epic MVP scope, the rule holds:
+if a task does not directly advance the active epic's stated goal, it must not be included.
 
-## Success Criteria
-- [criterion]
-- [criterion]
-- [criterion]
+Scope creep at the task level is caught by the sub-agent profile's `## Constraints` section
+and enforced by the one-active-task rule in `AGENTS.md`.

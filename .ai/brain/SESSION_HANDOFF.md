@@ -17,7 +17,7 @@
 - .ai/project/PROJECT_CONTEXT.md
 - .ai/project/CURRENT_STATUS.md
 - .ai/architecture/MVP_BOUNDARIES.md
-- .ai/architecture/ENGINE_DECISIONS.md
+- .ai/architecture/ATCHITECTURE_DECISIONS.md
 - .ai/brain/CURRENT_FOCUS.md
 - .ai/brain/PROJECT_STATE.md
 - .ai/brain/DECISIONS_LOG.md

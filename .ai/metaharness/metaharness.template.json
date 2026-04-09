@@ -1,0 +1,31 @@
+{
+  "objective": "[Describe what a well-functioning harness for this project looks like]",
+  "constraints": [
+    "[What the agent must not change, e.g. fixture files, production configs]",
+    "[Scope restrictions, e.g. focus on AGENTS.md and scripts only]"
+  ],
+  "baseline_dir": "baseline",
+  "runs_dir": "runs",
+  "tasks_file": "tasks.json",
+  "required_files": [
+    "AGENTS.md",
+    "scripts/bootstrap.sh",
+    "scripts/validate.sh",
+    "scripts/test.sh"
+  ],
+  "allowed_write_paths": [
+    "AGENTS.md",
+    "scripts"
+  ],
+  "backends": {
+    "codex": {
+      "sandbox_mode": "workspace-write",
+      "approval_policy": "never",
+      "use_oss": true,
+      "local_provider": "ollama",
+      "model": "gpt-oss:20b",
+      "proposal_timeout_seconds": 240
+    }
+  },
+  "default_budget": 1
+}
