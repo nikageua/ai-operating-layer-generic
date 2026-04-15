@@ -48,43 +48,55 @@ If the harness is broken, fix the harness first (see harness rules).
 
 ---
 
-# 3. Read Before Acting
+ # 3. Read Before Acting
 
-## Orchestrator agent (planning / spec / epic / task work)
-Must read, in order:
+ ## Bootstrap mode
 
-1. `.ai/project/PROJECT_CONTEXT.md`
-2. `.ai/project/CURRENT_STATUS.md`
-3. `.ai/architecture/ARCHITECTURE_DECISIONS.md`
-4. `.ai/agent/AGENTS.md` (this file)
-5. `.ai/brain/BRAIN_UPDATE_PROTOCOL.md` ← governs how/when to update all brain files
-6. `.ai/brain/SESSION_HANDOFF.md`
-7. `.ai/brain/CURRENT_FOCUS.md`
-8. `.ai/brain/PROJECT_STATE.md`
-9. `.ai/brain/DECISIONS_LOG.md`
-10. `.ai/brain/NEXT_STEPS.md`
-11. `.ai/brain/OPEN_QUESTIONS.md`
-12. `.ai/specs/SPEC_INDEX.md`
-13. `.ai/epics/EPIC_INDEX.md`
-14. `.ai/epics/EPIC_SELECTION_RULES.md`
-15. `.ai/epics/in-progress/*`
-16. `.ai/tasks/TASK_INDEX.md`
-17. `.ai/tasks/TASK_SELECTION_RULES.md`
-18. `.ai/memory/MEMORY_GOVERNANCE.md` ← governs how/when to update all memory files
-19. `.ai/memory/*`
+ **At the start of every session, ask the user:**
+ > "Quick bootstrap (3 files) or full bootstrap (complete AI layer)?"
 
-## Sub-agent (task execution)
-Must read, in order:
+ ### Quick bootstrap — use for most sessions
 
-1. `.ai/agent/AGENTS.md` (this file)
-2. `.ai/tasks/in-progress/[TASK_ID].md` (the active task)
-3. `.ai/agents/profiles/[profile-id].md` (the declared profile)
-4. `.ai/metaharness/HARNESS_RULES.md`
-5. `.ai/memory/*`
-6. `.ai/brain/CURRENT_FOCUS.md`
+ 1. `.ai/QUICKSTART.md` — shared rules, commands, pitfalls (committed, team-wide)
+ 2. `.ai/QUICKSTART.local.md` — your active task, recent decisions (gitignored, per-developer; create from template in
+QUICKSTART.md if missing)
+ 3. `.ai/brain/CURRENT_FOCUS.md` — scope guardrails
 
-If the profile does not exist → stop and trigger harness bootstrap.
+ ### Full bootstrap — use for spec authoring, architecture decisions, or new epic/task creation
 
+ Must read, in order:
+
+ 1. `.ai/project/PROJECT_CONTEXT.md`
+ 2. `.ai/project/CURRENT_STATUS.md`
+ 3. `.ai/architecture/ARCHITECTURE_DECISIONS.md`
+ 4. `.ai/agent/AGENTS.md` (this file)
+ 5. `.ai/brain/BRAIN_UPDATE_PROTOCOL.md`
+ 6. `.ai/brain/SESSION_HANDOFF.md`
+ 7. `.ai/brain/CURRENT_FOCUS.md`
+ 8. `.ai/brain/PROJECT_STATE.md`
+ 9. `.ai/brain/DECISIONS_LOG.md`
+ 10. `.ai/brain/NEXT_STEPS.md`
+ 11. `.ai/brain/OPEN_QUESTIONS.md`
+ 12. `.ai/specs/SPEC_INDEX.md`
+ 13. `.ai/epics/EPIC_INDEX.md`
+ 14. `.ai/epics/EPIC_SELECTION_RULES.md`
+ 15. `.ai/epics/in-progress/*`
+ 16. `.ai/tasks/TASK_INDEX.md`
+ 17. `.ai/tasks/TASK_SELECTION_RULES.md`
+ 18. `.ai/memory/MEMORY_GOVERNANCE.md`
+ 19. `.ai/memory/*`
+
+ ## Sub-agent (task execution)
+ Must read, in order:
+
+ 1. `.ai/agent/AGENTS.md` (this file)
+ 2. `.ai/tasks/in-progress/[TASK_ID].md` (the active task)
+ 3. `.ai/agents/profiles/[profile-id].md` (the declared profile)
+ 4. `.ai/metaharness/HARNESS_RULES.md`
+ 5. `.ai/memory/*`
+ 6. `.ai/brain/CURRENT_FOCUS.md`
+
+ If the profile does not exist → stop and trigger harness bootstrap.
 ---
 
 # 4. Spec-Driven Development Rules

@@ -1,0 +1,19 @@
+ # My Quickstart — EXAMPLE
+
+ > This file is an example. Copy it to `.ai/QUICKSTART.local.md` (gitignored) and fill in your own state.
+
+ ## Active Task
+ **TASK-007** — Fix confidence false-match fallback in scoreCreatioMatch
+ Epic: EPIC-001
+
+ Next steps:
+ 1. Locate `scoreCreatioMatch` in `services/matching.ts`
+ 2. Raise minimum threshold from 45% to 60%
+ 3. Run build to verify no type errors
+ 4. Propose AI layer update
+
+ ## Recent Decisions
+ - [2026-04-15] DEC-001 — Bootstrapped full AI operating layer
+
+ ## Open Notes
+ - TASK-010 scope may be smaller than described — check if already partially fixed
