@@ -2,7 +2,8 @@
 
 ## 1. Copy the template once
 
-Copy `.ai/` into a shared workspace or project root.
+Copy `.ai/` and `INIT_PROMPT.md` into your shared workspace or project root.
+
 Do not create one full AIL copy per user story.
 
 ## 2. Fill the project overlay
