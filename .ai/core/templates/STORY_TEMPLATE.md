@@ -1,4 +1,8 @@
-# STORY: <id>
+# STORY: <human-readable title>
+
+ID: story-<utc-timestamp>-<short-slug>-<shortid>
+Created-at: <UTC timestamp>
+Created-by: <agent | human | session>
 
 ## Goal
 What multi-step or multi-repo outcome are we trying to produce?

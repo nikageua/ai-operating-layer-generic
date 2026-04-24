@@ -1,4 +1,8 @@
-# TASK: <id>
+# TASK: <human-readable title>
+
+ID: task-<utc-timestamp>-<short-slug>-<shortid>
+Created-at: <UTC timestamp>
+Created-by: <agent | human | session>
 
 ## Summary
 A one-paragraph statement of the concrete change.

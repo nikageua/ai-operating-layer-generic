@@ -1,4 +1,8 @@
-# SPIKE: <id>
+# SPIKE: <human-readable title>
+
+ID: spike-<utc-timestamp>-<short-slug>-<shortid>
+Created-at: <UTC timestamp>
+Created-by: <agent | human | session>
 
 ## Unknown to resolve
 What do we not understand yet?

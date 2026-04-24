@@ -54,3 +54,23 @@ It evolves through a semi-automatic model:
 - human approval gates durable truth.
 
 This keeps learning alive without allowing uncontrolled drift.
+
+
+See also: `.ai/core/references/NAMING_AND_IDS.md` for collision-resistant artifact naming.
+
+## Shared team operation
+
+For real parallel team usage, AIL v2 also defines doctrine for:
+- parallel work model
+- knowledge scopes
+- runtime lifecycle
+- conflict resolution
+- ownership
+- cross-repo impact discovery
+- operating-layer health
+- anti-bloat
+- gradual adoption
+
+## Token efficiency
+
+AIL v2 is designed to be read selectively. The full doctrine is not the default context for every session. Use the navigation and read-tier rules to keep context small.

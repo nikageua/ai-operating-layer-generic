@@ -41,3 +41,14 @@ When a task gets blocked:
 - choose a new valid next move
 - record attempts locally only when useful
 - promote repeated lessons into project docs
+
+
+See also: `.ai/core/references/NAMING_AND_IDS.md` for collision-resistant artifact naming.
+
+## Grow only as needed
+
+Do not fill every layer on day one. Start minimal, then adopt stronger doctrine as parallel work and repeated lessons make it necessary.
+
+## Keep startup lean
+
+For a fresh session, load only the minimal bootstrap doctrine first. Pull in additional doctrine only when the problem actually requires it.

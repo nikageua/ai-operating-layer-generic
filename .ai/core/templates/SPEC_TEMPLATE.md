@@ -1,4 +1,8 @@
-# SPEC: <id>
+# SPEC: <human-readable title>
+
+ID: spec-<utc-timestamp>-<short-slug>-<shortid>
+Created-at: <UTC timestamp>
+Created-by: <agent | human | session>
 
 ## Problem
 What problem exists today?
