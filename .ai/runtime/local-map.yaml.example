@@ -1,0 +1,11 @@
+repos:
+  example-web-app:
+    path: /absolute/path/to/example-web-app
+  example-api:
+    path: /absolute/path/to/example-api
+
+envs:
+  web-dev:
+    url: http://localhost:3000
+  api-local:
+    url: http://localhost:8080

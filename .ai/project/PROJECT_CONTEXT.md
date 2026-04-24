@@ -1,24 +1,12 @@
 # Project Context
 
-## Project Name
-[Project Name]
+Describe the product in a way that helps future AI sessions orient quickly.
 
-## High Concept
-[What this project is]
+Recommended contents:
+- what the system does,
+- who it serves,
+- major domains,
+- high-level repo topology,
+- current priorities.
 
-## Core Idea
-[What the product/game/app is really about]
-
-## Core User / Player Value
-[What the user should feel or achieve]
-
-## World / Domain
-[Important domain context]
-
-## Current Development Philosophy
-- build incrementally
-- validate small slices first
-- avoid premature complexity
-
-## Current Architectural Goal
-[What kind of foundation is being built right now]
+Keep this file stable and decision-oriented.
