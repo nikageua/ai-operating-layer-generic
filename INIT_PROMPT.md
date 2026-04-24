@@ -18,6 +18,10 @@ Your goal is to complete the requested work with the lightest valid process whil
 
 Then load only the additional doctrine that changes the current decision.
 
+## Prompt fidelity
+When project truth conflicts with model prior knowledge, project truth wins.
+When applying a project convention or rule, prefer citing the project file that defines it.
+
 ## Core behavior
 - choose the lightest valid lane,
 - do not add ceremony without a reason,

@@ -10,3 +10,8 @@ Recommended contents:
 - current priorities.
 
 Keep this file stable and decision-oriented.
+
+See also:
+- `DOMAIN_GLOSSARY.md` for canonical product terms
+- `CANONICAL_SURFACES.yaml` for shared integration surfaces
+- `DECISIONS.md` for short decision history

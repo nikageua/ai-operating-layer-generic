@@ -74,3 +74,11 @@ For real parallel team usage, AIL v2 also defines doctrine for:
 ## Token efficiency
 
 AIL v2 is designed to be read selectively. The full doctrine is not the default context for every session. Use the navigation and read-tier rules to keep context small.
+
+## Additional lightweight aids
+
+AIL v2 may also use:
+- a domain glossary for canonical product terms
+- a canonical surfaces registry for shared integrations and contracts
+- slim decision notes for choices likely to be revisited
+- reversibility, stop-and-ask, and context-budget doctrine for safer AI execution

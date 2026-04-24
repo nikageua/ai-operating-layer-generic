@@ -47,3 +47,10 @@ Read occasionally, not by default:
 
 ## Rule
 If a file does not change the next decision, do not load it.
+
+- `doctrine/REVERSIBILITY.md`
+  - when a change looks small but may be hard to undo
+- `doctrine/STOP_AND_ASK.md`
+  - when irreversible or expanding work needs human alignment
+- `doctrine/CONTEXT_BUDGET.md`
+  - when token usage or loading discipline matters
