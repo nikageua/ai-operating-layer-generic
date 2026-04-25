@@ -1,0 +1,7 @@
+surfaces:
+  example-session-refresh:
+    kind: auth-flow
+    owner: repo:identity-api
+    consumers:
+      - repo:web-app
+    canonical: path/to/canonical/definition

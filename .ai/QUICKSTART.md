@@ -1,60 +1,55 @@
-# AI Quickstart
+# Quickstart
 
- > **Read this file first, every session** — shared rules, commands, and pitfalls.
- > Then read your personal `.ai/QUICKSTART.local.md` for your active task and recent decisions.
- > If `QUICKSTART.local.md` doesn't exist yet, create it from the template at the bottom of this file.
+## 1. Copy the template once
 
- ---
+Copy `.ai/` and `INIT_PROMPT.md` into your shared workspace or project root.
 
- ## Hard Rules
+Do not create one full AIL copy per user story.
 
- - **Never create epics without an approved spec.**
- - **Never write code without an active task.**
- - **Never modify `.ai/` files without proposing an update and receiving explicit "Yes" approval.**
- - One task in-progress at a time (unless explicitly parallelized by the orchestrator).
- - Sub-agents propose `.ai/` changes — they do not apply them directly.
+## 2. Fill the project overlay
 
- ---
+Start with:
+- `.ai/project/PROJECT_CONTEXT.md`
+- `.ai/project/REPO_REGISTRY.yaml`
+- `.ai/project/CONVENTIONS.md`
+- `.ai/project/ARCHITECTURAL_CONSTRAINTS.md` if needed
+- `.ai/project/AGENT_PROFILES/`
 
- ## Key Commands
+## 3. Set local machine mapping
 
- > ⚠️ Fill in project-specific commands when adopting this template.
+Create locally:
+- `.ai/runtime/local-map.yaml`
 
- ```bash
- # Example — replace with your actual build/test commands:
- # npm run build
- # dotnet build
- # npm test
+Do not commit machine-specific paths or local URLs.
 
--------------------------------------------------------------------------------------------------------------------------
+## 4. Pick a lane for each change
 
-Top Pitfalls
+- Tiny
+- Standard
+- Architectural
 
- ⚠️ Fill in project-specific pitfalls when adopting this template. Add entries here as you discover recurring failure
- modes.
+## 5. Use story folders for multi-repo work
 
--------------------------------------------------------------------------------------------------------------------------
+For non-trivial or cross-repo work, create:
+- `.ai/project/stories/STORY-xxx/`
 
-QUICKSTART.local.md Template
+Use logical IDs only in tracked story docs.
 
-QUICKSTART.local.md is gitignored — each developer maintains their own copy. Create .ai/QUICKSTART.local.md and fill it
-in:
+## 6. Learn through failures, not bureaucracy
 
- # My Quickstart
+When a task gets blocked:
+- classify the failure
+- choose a new valid next move
+- record attempts locally only when useful
+- promote repeated lessons into project docs
 
- ## Active Task
- **[TASK-ID]** — [Task title]
- Epic: [EPIC-ID]
 
- Next steps:
- 1. ...
+See also: `.ai/core/references/NAMING_AND_IDS.md` for collision-resistant artifact naming.
 
- ## Recent Decisions
- - [YYYY-MM-DD] ...
+## Grow only as needed
 
- ## Open Notes
- - ...
+Do not fill every layer on day one. Start minimal, then adopt stronger doctrine as parallel work and repeated lessons make it necessary.
 
--------------------------------------------------------------------------------------------------------------------------
+## Keep startup lean
 
- For full read/update rules for every AI layer file, see .ai/agent/AGENTS.md.
+For a fresh session, load only the minimal bootstrap doctrine first. Pull in additional doctrine only when the problem actually requires it.

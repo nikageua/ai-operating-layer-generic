@@ -1,0 +1,13 @@
+repos:
+  example-web-app:
+    role: frontend
+    stack: react
+  example-api:
+    role: backend
+    stack: dotnet
+
+envs:
+  web-dev:
+    role: local frontend env
+  api-local:
+    role: local backend env
