@@ -73,3 +73,10 @@ If you notice one of these, stop and rethink placement:
 
 Keep this short.
 If the answer becomes long, that is usually a sign you actually need a spec or spike.
+
+
+## Loading model
+
+- Tiny: do not load architectural decisions by default.
+- Standard: load `ARCHITECTURAL_CONSTRAINTS.md`, then pull relevant decision notes only if triggered.
+- Architectural: load `ARCHITECTURAL_CONSTRAINTS.md`, relevant decision notes, and the current story/spec architecture note.

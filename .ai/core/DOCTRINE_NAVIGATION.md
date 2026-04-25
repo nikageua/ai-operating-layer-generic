@@ -16,6 +16,10 @@ Read only when the work requires it:
 - `doctrine/ARCHITECTURE_SANITY_CHECK.md`
   - when lane is Standard or Architectural
   - when ownership or placement is unclear
+- `project/ARCHITECTURAL_CONSTRAINTS.md`
+  - load early for Standard/Architectural work
+- `project/decisions/*`
+  - load only when a specific architectural decision is relevant
 
 - `doctrine/CROSS_REPO_IMPACT.md`
   - when more than one repo is touched or suspected
